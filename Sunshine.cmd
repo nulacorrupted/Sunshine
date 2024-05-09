@@ -1,6 +1,6 @@
 @echo off
 title Sunshine
-echo Sunshine was found and maintained by var1 and ever
+echo Sunshine was found and maintained by nula
 echo.
 echo (C) Sunshine, Copyright By nula. All rights reserved.
 
