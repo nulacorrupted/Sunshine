@@ -1,5 +1,5 @@
 # Sunshine
-  -Sunshine tweaks your roblox with fast-flags!
+-Sunshine tweaks your roblox with fast-flags!
 
 ## What Can Sunshine Optimize:
 
