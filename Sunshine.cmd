@@ -2,7 +2,7 @@
 title Sunshine
 echo Sunshine was found and maintained by var1 and ever
 echo.
-echo No copyright (Broke :c)
+echo (C) nula - Present, All Rights Reserved
 
 set "shinefolder="
 
