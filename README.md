@@ -27,7 +27,7 @@ No, Sunshine does not takes up a lot of space at your device, nor it will cause 
 ## Why Should You Use Sunshine:
 1. Sunshine is better than rbxfpsunlocker.
 2. Sunshine not just unlocking your fps, but give you smoother gameplay, and allow you to have the best in-game experience as possible!
-3. Sunshine reduced your input delay lag, allow you to having the best performance and beset quality!
+3. Sunshine reduced your input delay lag, allow you to having the best performance!
 
 # How Can I Download Sunshine?
 [Click Me To Download Sunshine](https://github.com/nulacorrupted/Sunshine/releases/tag/Sunshine)
