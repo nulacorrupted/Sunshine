@@ -2,7 +2,7 @@
 title Sunshine
 echo Sunshine was found and maintained by var1 and ever
 echo.
-echo (C) nula - Present, All Rights Reserved
+echo (C) Sunshine, Copyright By nula. All rights reserved.
 
 set "shinefolder="
 
@@ -63,4 +63,4 @@ echo 3. You don't need to run Sunshine in the background.
 echo.
 echo 4. Highly recommended to use 21 graphics bar even you are on low-end pc! Sunshine did a optimization that allow user to using 21 grpahics bar without affecting your fps!
 echo.
-echo Press any key to exit... & pause >nul
+pause
