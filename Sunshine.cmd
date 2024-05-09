@@ -20,13 +20,6 @@ for /d %%y in ("C:\Program Files\Roblox\Versions\*") do (
     )
 )
 
-for /d %%y in ("%localappdata%\Bloxstrap\Modifications\*") do (
-    if exist "%%y\ClientSettings" (
-       set "shinefolder=%%y"
-            goto shiny
-    )
-)
-
 for /d %%y in ("C:\Program Files (x86)\Roblox\Versions\*") do (
     if exist "%%y\RobloxPlayerBeta.exe" (
        set "shinefolder=%%y"
@@ -39,6 +32,12 @@ if defined shinefolder (
     if not exist "%shinefolder%\ClientSettings" (
         mkdir "%shinefolder%\ClientSettings"
     )
+) else (
+    echo Roblox and Bloxstrap is not found. Please contact owner!
+    pause
+    exit /b
+)
+
 :import
 echo Unlocking FPS...
 powershell.exe -Command "& {(New-Object System.Net.WebClient).DownloadFile('https://pastebin.com/raw/4Ru0hLqK', '%shinefolder%\ClientSettings\ClientAppSettings.json')}"
@@ -61,6 +60,8 @@ echo 2. If there is any error in Sunshine, contact @nulacorrupted on Discord.
 echo.
 echo 3. You don't need to run Sunshine in the background.
 echo.
-echo 4. Highly recommended to use 21 graphics bar even you are on low-end pc! Sunshine did a optimization that allow user to using 21 grpahics bar without affecting your fps!
+echo 4. Highly recommended use 21 graphics bar, Sunshine did a optimization that allow user to using max graphics quality without affecting that much fps.
 echo.
-pause
+echo 5. Sunshine don't guarantee to boost your fps, your fps will be uncapped, and we only guarantee to having smoother gameplay by using Alt-Enter instead of F11.
+echo.
+echo Press any key to exit... & pause >nul
