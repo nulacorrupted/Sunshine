@@ -57,7 +57,7 @@ echo Quick things to know before you exit out:
 echo.
 echo 1. Run Sunshine every time there is a Roblox update.
 echo.
-echo 2. If there is any error in Sunshine, contact @babynula on Discord.
+echo 2. If there is any error in Sunshine, contact @nulacorrupted on Discord.
 echo.
 echo 3. You don't need to run Sunshine in the background.
 echo.
