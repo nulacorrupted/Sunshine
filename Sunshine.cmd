@@ -1,6 +1,6 @@
 @echo off
 title Sunshine
-echo Searching Roblox meow~!
+
 set "shinefolder="
 
 for /d %%y in ("%localappdata%\Roblox\Versions\*") do (
@@ -31,38 +31,23 @@ if defined shinefolder (
     )
 )
 
-:yappingmenu
+:nyaan
 cls
-echo ------------------------------------
-echo ^|             Sunshine              ^|
-echo ^|    Found and Maintained By Nula   ^|
-echo ^|                                   ^|
-echo ^|   (C) nula. All rights reserved.  ^|
-echo ------------------------------------
-echo ^|         Client Settings           ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|        [1] Plan Option 1          ^|
-echo ^|            (Default)              ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|        [2] Plan Option 2          ^|
-echo ^|            (Potato)               ^|
-echo ------------------------------------
-echo ^|        Additional Settings        ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|    [remove] Uninstall Sunshine    ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|    [contact] Contact Owner        ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|                                   ^|
-echo ^|        [quit] Exit                ^|
-echo ------------------------------------
-
+echo =================================
+echo            Sunshine
+echo Copyright (c) 2024 by nulacorrupted.
+echo       All rights reserved.
+echo =================================
+echo [1] Default Performance
+echo.
+echo [2] Ultra Performance
+echo.
+echo [3] Remove Sunshine
+echo.
+echo [4] Contact Nula on Discord
+echo.
+echo [5] Exit
+echo =================================
 echo.
 set /p opt="Enter your choice: "
 if /i "%opt%"=="1" (
@@ -71,21 +56,18 @@ if /i "%opt%"=="1" (
 if /i "%opt%"=="2" (
   goto :plan2
 )
-if /i "%opt%"=="remove" (
+if /i "%opt%"=="3" (
   goto :remove
 )
-if /i "%opt%"=="upd" (
-  goto :update
-)
-if /i "%opt%"=="contact" (
+if /i "%opt%"=="4" (
   goto :nula
 )
-if /i "%opt%"=="quit" (
+if /i "%opt%"=="5" (
   goto quit
 )
 echo Invalid choice:( Please try again.
 pause
-goto :yappingmenu
+goto :nyaan
 
 :plan1
 powershell.exe -Command "& {(New-Object System.Net.WebClient).DownloadFile('https://pastebin.com/raw/4Ru0hLqK', '%shinefolder%\ClientSettings\ClientAppSettings.json')}"
@@ -94,7 +76,7 @@ if "%errorlevel%" equ "0" (
     echo Successfully Optimize Roblox!
     echo.
     pause
-    goto :yappingmenu
+    goto :nyaan
 ) else (
     echo Failed Optimize Roblox!
     echo.
@@ -102,7 +84,7 @@ if "%errorlevel%" equ "0" (
     echo.
     echo @nulacorrupted
     pause
-    goto :yappingmenu
+    goto :nyaan
 )
 
 :plan2
@@ -112,7 +94,7 @@ if "%errorlevel%" equ "0" (
     echo Successfully Optimize Roblox!
     echo.
     pause
-    goto :yappingmenu
+    goto :nyaan
 ) else (
     echo Failed Optimize Roblox!
     echo.
@@ -120,7 +102,7 @@ if "%errorlevel%" equ "0" (
     echo.
     echo @nulacorrupted
     pause
-    goto :yappingmenu
+    goto :nyaan
 )
 
 :remove
@@ -131,21 +113,21 @@ if /i "%continued%"=="y" (
         rmdir "%shinefolder%\ClientSettings" /s /q
         echo You've removed your client settings.
         pause
-        goto :yappingmenu
+        goto :nyaan
     )
 ) else (
     if /i "%continued%"=="n" (
         pause
-        goto :yappingmenu
+        goto :nyaan
     )
 )
 
 :nula
 cls
 echo Nula's discord user: nulacorrupted
-echo Feel free to dm!
+echo If you have any question about Sunshine, please DM nula!
 pause
-goto :yappingmenu
+goto :nyaan
 
 :quit
 exit
