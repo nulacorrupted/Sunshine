@@ -4,12 +4,13 @@ Sunshine tweaks your roblox with fast-flags!
 ## What Can Sunshine Do:
 
 - In-Built FPS Unlocker
-- Optimize Graphics
-- Unlock The TrueGraphics Quality (21 graphics instead of 10)
+- Disable Chrome-UI
+- Unlock The True Graphics Quality (21 graphics instead of 10)
 - Cleaner ESC Menu
 - Gray Sky (optional)
 - Disable Unnecessary Features
 - Alt-Enter Fix (Exclusive-Fullscreen)
+- No Roblox Title-Bar
 - And More!
 
 ## Will Sunshine Cause Issue At My Device?
