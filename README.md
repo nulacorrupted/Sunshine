@@ -1,5 +1,5 @@
 # Sunshine
-Sunshine tweaks your roblox with fast-flags!
+A FPS Unlocker For Roblox!
 
 ## What Can Sunshine Do:
 
@@ -22,7 +22,7 @@ Unfortunately, Sunshine does not support Bloxstrap. Supporting Bloxstrap may cau
 ## Is Sunshine Safe?
 Yes, Sunshine is completely safe. Feel free to use a virus-scanner to check the source code!
 
-## Does Sunshine Take Up A Lot Of Space At My Device?
+## Does Sunshine Take Up A Lot of Space at My Device?
 No, Sunshine does not take up a lot of space at your device, nor it will cause any issue at this point.
 
 ## Why Should You Use Sunshine:
