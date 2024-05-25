@@ -2,5 +2,6 @@
   "FStringEnableExistence": true,
   "DFIntTaskSchedulerTargetFps": 24000000,
   "FFlagFixGraphicsQuality": true,
-  "FFlagHandleAltEnterFullscreenManually": false
+  "FFlagHandleAltEnterFullscreenManually": false,
+  "DFIntDebugFRMQualityLevelOverride": 1
 }
